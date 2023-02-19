@@ -1,0 +1,267 @@
+.navbar{
+    .list-unstyled{
+        a{
+          color: black; 
+          text-decoration: none; 
+          font-weight: 600;
+        }
+        
+    }
+}
+
+
+
+
+.categories{
+    .row{
+        .color1{
+            transition-duration: 1s;
+            &:hover{
+                background-color: aqua;
+                
+            } 
+        }
+        .color2{
+            transition-duration: 1s;
+            &:hover{
+                background-color: brown;
+                
+            } 
+        }
+        .color3{
+            transition-duration: 1s;
+            &:hover{
+                background-color: green;
+                
+            } 
+        }
+        .color4{
+            transition-duration: 1s;
+            &:hover{
+                background-color: gold;
+                
+            } 
+        }
+        .color5{
+            transition-duration: 1s;
+            &:hover{
+                background-color: blueviolet;
+                
+            } 
+        }
+        .color6{
+            transition-duration: 1s;
+            &:hover{
+                background-color: crimson;
+                
+            } 
+        }
+        .color7{
+            transition-duration: 1s;
+            &:hover{
+                background-color: dodgerblue;
+                
+            } 
+        }
+        .color8{
+            transition-duration: 1s;
+            &:hover{
+                background-color: darkorange;
+                
+            } 
+        }
+        .color9{
+            transition-duration: 1s;
+            &:hover{
+                background-color: cadetblue;
+                
+            } 
+        }
+        
+    }
+}
+
+.learn{
+   .row{
+    .col-12{
+        .picture-r{
+            width: 480px;
+            height: 500px;
+            position: relative;
+            .picture{
+                width: 370px;
+                height: 420px;
+                background-image: url('https://edublink.html.devsblink.com/assets/images/about/about-01.webp') ;
+                background-size: cover;
+                .picture-a{
+                    width: 220px;
+                    height: 190px;
+                    position: absolute;
+                    top: 0;
+                    right: 0;
+
+                    .bg-white{
+                        position: absolute;
+                        top: 50px;
+                        left: 80px;
+
+                       
+
+                    }
+    
+                }
+            }
+        }
+
+    }
+   }
+
+    
+}
+
+
+
+
+
+
+
+.course{
+    .row{
+
+        .col-12{
+            position: relative;
+            
+            .copy{
+                width: 98%;
+                height: auto;
+                display: none;
+                background-color: rgb(43, 164, 164);
+                position: absolute;
+                top: 0;
+                z-index: 2;
+                
+
+            }
+            .card{
+                position: relative;
+                .bg-warning{
+                    position: absolute;
+                    top: 8px;
+                    right: 8px;
+                }
+            }
+            &:hover{
+                .copy{
+                    display: block;
+                    
+                }
+            }
+            
+            
+        }
+    }
+}
+
+.numbers{
+    .container{
+
+
+        .p-relative{
+            position: relative;
+
+            .p-absolute{
+                
+                animation: circle 10s  infinite linear;
+                position: absolute;
+                top: -40px;
+                left: -70px;
+   
+            }
+            &:hover{
+                .picture-png{
+                    transition-duration: 3s;
+                    position: relative;
+                    animation: way 1s   ;
+                    top: 10px;
+                    left: 10px;
+                }
+
+            }
+        }
+
+    }
+
+
+}
+
+@keyframes circle {
+
+    100%{
+        transform: rotate(360deg);
+    }
+}
+
+@keyframes way { 
+    from{top: 0px;}   //0px olan yerden baslasin
+    to{top: 30px; left: -30px;} //400px olan yere kimi davam etsin
+   
+  
+} 
+
+
+
+
+
+
+
+.edublink{
+    .container{
+        .row{
+            .col-12{
+                .edu-relative{
+                    width: 370px;
+                    height: 370px;
+                    background-image: url('https://edublink.html.devsblink.com/assets/images/blog/blog-01.jpg');
+                    
+                    
+                    .font-color{
+                        width: 370px;
+                        height: 370px;
+                        background-color: black;
+                        opacity: 0.7;
+                        visibility: hidden;
+                        transition-duration: 250ms;
+
+                        
+                    }
+
+                    position: relative;
+                    .btn-success{
+                        transition-duration: 250ms;
+                        position: absolute;
+                        top: 30%;
+                        left: 50%;
+                        visibility: hidden;
+                    }
+                    .edu-absolote{
+                        position: absolute;
+                        bottom: -60px;
+     
+                    }
+                }
+                &:hover{
+                    transform:translateY(-2px);
+                    .btn-success{
+                        visibility: visible;
+                    }
+                    .font-color{
+                        
+                        visibility: visible;
+                        
+                    }
+                    
+                }
+            }
+        }
+    }
+}

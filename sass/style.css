@@ -1,0 +1,174 @@
+.navbar .list-unstyled a {
+  color: black;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.categories .row .color1 {
+  transition-duration: 1s;
+}
+.categories .row .color1:hover {
+  background-color: aqua;
+}
+.categories .row .color2 {
+  transition-duration: 1s;
+}
+.categories .row .color2:hover {
+  background-color: brown;
+}
+.categories .row .color3 {
+  transition-duration: 1s;
+}
+.categories .row .color3:hover {
+  background-color: green;
+}
+.categories .row .color4 {
+  transition-duration: 1s;
+}
+.categories .row .color4:hover {
+  background-color: gold;
+}
+.categories .row .color5 {
+  transition-duration: 1s;
+}
+.categories .row .color5:hover {
+  background-color: blueviolet;
+}
+.categories .row .color6 {
+  transition-duration: 1s;
+}
+.categories .row .color6:hover {
+  background-color: crimson;
+}
+.categories .row .color7 {
+  transition-duration: 1s;
+}
+.categories .row .color7:hover {
+  background-color: dodgerblue;
+}
+.categories .row .color8 {
+  transition-duration: 1s;
+}
+.categories .row .color8:hover {
+  background-color: darkorange;
+}
+.categories .row .color9 {
+  transition-duration: 1s;
+}
+.categories .row .color9:hover {
+  background-color: cadetblue;
+}
+
+.learn .row .col-12 .picture-r {
+  width: 480px;
+  height: 500px;
+  position: relative;
+}
+.learn .row .col-12 .picture-r .picture {
+  width: 370px;
+  height: 420px;
+  background-image: url("https://edublink.html.devsblink.com/assets/images/about/about-01.webp");
+  background-size: cover;
+}
+.learn .row .col-12 .picture-r .picture .picture-a {
+  width: 220px;
+  height: 190px;
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+.learn .row .col-12 .picture-r .picture .picture-a .bg-white {
+  position: absolute;
+  top: 50px;
+  left: 80px;
+}
+
+.course .row .col-12 {
+  position: relative;
+}
+.course .row .col-12 .copy {
+  width: 98%;
+  height: auto;
+  display: none;
+  background-color: rgb(43, 164, 164);
+  position: absolute;
+  top: 0;
+  z-index: 2;
+}
+.course .row .col-12 .card {
+  position: relative;
+}
+.course .row .col-12 .card .bg-warning {
+  position: absolute;
+  top: 8px;
+  right: 8px;
+}
+.course .row .col-12:hover .copy {
+  display: block;
+}
+
+.numbers .container .p-relative {
+  position: relative;
+}
+.numbers .container .p-relative .p-absolute {
+  animation: circle 10s infinite linear;
+  position: absolute;
+  top: -40px;
+  left: -70px;
+}
+.numbers .container .p-relative:hover .picture-png {
+  transition-duration: 3s;
+  position: relative;
+  animation: way 1s;
+  top: 10px;
+  left: 10px;
+}
+
+@keyframes circle {
+  100% {
+    transform: rotate(360deg);
+  }
+}
+@keyframes way {
+  from {
+    top: 0px;
+  }
+  to {
+    top: 30px;
+    left: -30px;
+  }
+}
+.edublink .container .row .col-12 .edu-relative {
+  width: 370px;
+  height: 370px;
+  background-image: url("https://edublink.html.devsblink.com/assets/images/blog/blog-01.jpg");
+  position: relative;
+}
+.edublink .container .row .col-12 .edu-relative .font-color {
+  width: 370px;
+  height: 370px;
+  background-color: black;
+  opacity: 0.7;
+  visibility: hidden;
+  transition-duration: 250ms;
+}
+.edublink .container .row .col-12 .edu-relative .btn-success {
+  transition-duration: 250ms;
+  position: absolute;
+  top: 30%;
+  left: 50%;
+  visibility: hidden;
+}
+.edublink .container .row .col-12 .edu-relative .edu-absolote {
+  position: absolute;
+  bottom: -60px;
+}
+.edublink .container .row .col-12:hover {
+  transform: translateY(-2px);
+}
+.edublink .container .row .col-12:hover .btn-success {
+  visibility: visible;
+}
+.edublink .container .row .col-12:hover .font-color {
+  visibility: visible;
+}/*# sourceMappingURL=style.css.map */
